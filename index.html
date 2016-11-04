@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>myapp</title>
+    <style>
+      #app{width:800px;margin: 0 auto;border:1px solid black }
+      a{width:350px;line-height: 45px; display: inline-block;text-align: center}
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <router-link to="/list">首页</router-link>
+      <router-link to="/sendTopic">发帖</router-link>
+      <router-view></router-view>
+    </div>
+    <script src="/dist/build.js">
+    </script>
+  </body>
+</html>
